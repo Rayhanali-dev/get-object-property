@@ -14,9 +14,9 @@ const findNumber = numbers.find(number => number % 10 === 0);
 console.log(findNumber);
 
 // Practice Problem reduce()
-// const reduceNumber = [1, 9, 17, 22];
-// const addNumber = reduceNumber.reduce((previous, current) => previous + current, 0);
-// console.log(addNumber);
+const reduceNumber = [1, 9, 17, 22];
+const addNumber = reduceNumber.reduce((previous, current) => previous + current, 0);
+console.log(addNumber);
 
 // Practice Problem reduce2()
 
