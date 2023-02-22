@@ -15,7 +15,6 @@ let data = {
                 secondary: [{
                         school_name: "ABC secondary school"
                     },
-
                     {
                         location: "St Lorence"
                     }
@@ -230,26 +229,25 @@ console.log(d);
 
 let datas = {
     data:
-
-        [{
-                bookId: 1,
-                bookDetails: {
-                    name: "habluder adda",
-                    category: "XYZ",
-                    price: "20$",
-                },
-                bookCategory: "Basic",
+    [{
+            bookId: 1,
+            bookDetails: {
+                name: "habluder adda",
+                category: "XYZ",
+                price: "20$",
             },
-            {
-                bookId: 2,
-                bookDetails: {
-                    name: "gobluder adda",
-                    category: "ABC",
-                    price: "40$",
-                },
-                bookCategory: "Beginner",
-            }
-        ]
+            bookCategory: "Basic",
+        },
+        {
+            bookId: 2,
+            bookDetails: {
+                name: "gobluder adda",
+                category: "ABC",
+                price: "40$",
+            },
+            bookCategory: "Beginner",
+        }
+    ]
 }
 
 const adda = datas.data[0].bookDetails.name;
